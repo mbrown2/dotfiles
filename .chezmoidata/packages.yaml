@@ -1,0 +1,4 @@
+packages:
+  - direnv
+  - zsh
+  - git
