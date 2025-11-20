@@ -1,0 +1,4 @@
+{{ if eq .osid "linux-arch" -}}
+#!/bin/sh
+pacman -S {{ .packages }}
+{{- end }}

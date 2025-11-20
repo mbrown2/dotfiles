@@ -1,4 +1,10 @@
 packages:
-  - direnv
-  - zsh
-  - git
+  darwin:
+    brews:
+      - direnv
+      - git
+    casks:
+  linux:
+    - direnv
+    - git
+    - zsh
